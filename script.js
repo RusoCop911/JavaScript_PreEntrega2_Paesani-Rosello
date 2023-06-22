@@ -111,7 +111,7 @@ function cambioPesos() {
         alert('ingrese cifra numerica')
         cambioPesos()
     } else if (pesos === 0) {
-        validarDatos()
+        validarDatosDolares()
     } else {
         alert('La cantidad en dolar blue sería de' + ' ' + (pesos / 500))
     }
@@ -165,7 +165,7 @@ function cambioPesosReales() {
         alert('ingrese cifra numerica')
         cambioPesosReales()
     } else if (pesos === 0) {
-        validarDatos()
+        validarDatosReales()
     } else {
         alert('La cantidad en Real Blue sería de' + ' ' + (pesos / 91))
     }
@@ -219,7 +219,7 @@ function cambioPesosEuros() {
         alert('ingrese cifra numerica')
         cambioPesosEuros()
     } else if (pesos === 0) {
-        validarDatos()
+        validarDatosEuro()
     } else {
         alert('La cantidad en Euro Blue sería de' + ' ' + (pesos / 540))
     }
